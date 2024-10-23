@@ -71,7 +71,8 @@ export default function CartMain() {
                 </TableBody>
             </Table>
         </TableContainer>
-        <Button variant="contained"><Link style={{textDecoration: "none", color: "white"}} to="/products">Xem thêm sản phẩm</Link></Button>
+        <Button style={{marginTop: "40px"}} variant="contained"><Link style={{textDecoration: "none", color: "white"}} to="/">Trang chủ</Link></Button>
+        <Button style={{marginTop: "40px", marginLeft: "10px"}} variant="contained"><Link style={{textDecoration: "none", color: "white"}} to="/products">Xem thêm sản phẩm</Link></Button>
     </div>
   )
 }
